@@ -1,0 +1,9 @@
+You can write your presents in the list behind the word "Presents", please write without " or ' as with a string.
+Information: The semicolon (;) separates all gifts. 
+If there 24 presents in the list, then is present 1 behind door 1 and if more or less then 24, then they are assigned to a random door. 
+Please do not change the values behind "presentList" and "language"!
+
+presents: example1;example2;example3;example4;example5
+presentList: 
+language: en
+doors: ________________________
