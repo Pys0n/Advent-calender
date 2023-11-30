@@ -57,7 +57,7 @@ class CalendarDoor(QPushButton):
             self.__parent.continue_btn.move(1500,0)
             self.__parent.infoScreen.move(1500,0)
             return
-        if self.__currentMonth == 12 and self.__number == self.__currentDay and self.__status == 'close':
+        if self.__currentMonth == 12  and self.__number <= self.__currentDay  and self.__status == 'close':
             self.__parent.doorData[str(self.__number)] = 'open'
             self.__parent.continue_btn.clicked.connect(closeInfo)        
             self.__parent.infoScreen.setText('You get: '+self.__present)
